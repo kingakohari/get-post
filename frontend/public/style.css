@@ -63,11 +63,11 @@
     font-size: 50px;
     color: rgb(216, 202, 162);
     text-decoration: underline 0.15em rgba(216, 202, 162, 0);
-    transition: text-decoration-color 300ms;
+    transition: text-decoration-color 1500ms;
   }
 
   h1:hover {
-    text-decoration-color: rgba(216, 202, 162, 3);
+    text-decoration-color: rgba(216, 202, 162, 1);
   }
   
   .a-box {
