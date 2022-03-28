@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+  }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  a img {
+  border: none;
+  }
+  
+  button,
+  a {
+  cursor: pointer;
+  color: inherit;
+  }
+  
+  textarea {
+  resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+  appearance: none !important;
+  border-radius: 0;
+  }
+  
+  /*End of CSS reset*/
+
+#bubbles {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+#root {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1920px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;  
+  }
+
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(216, 202, 162);
+    text-decoration: underline 0.15em rgba(216, 202, 162, 0);
+    transition: text-decoration-color 300ms;
+  }
+
+  h1:hover {
+    text-decoration-color: rgba(216, 202, 162, 3);
+  }
+  
+  .a-box {
+    width: 240px;
+    text-align: center;
+  }
+  
+  .img-container {
+      height: 230px;
+      width: 200px;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+  }
+  
+  .img-container img {
+      transform: skew(0deg, -13deg);
+      height: 250px;
+      margin: -25px 0px 0px -90px;
+      background-position: center;
+  }
+  
+  .inner-skew {
+      display: inline-block;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0;
+      transform: skew(0deg, 13deg);
+      margin: 30px 0px 0px 0px;
+      background: #c8c2c2;
+      height: 250px;
+      width: 200px;
+  }
+  
+  .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  
+  .text-container h2 {
+    margin: 20px 0px 10px 0px;
+    color: #d8a61b;
+    line-height: 1.5;
+    font-family: 'Condiment', cursive;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+  }
+
+  .text-container p {
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .text-container p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+  }
